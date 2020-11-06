@@ -1,5 +1,6 @@
 # ✨✨✨ 
 ## 跟着自己的感觉走
+## [博客-文档](https://chengbotao.github.io/lanbitao/)
 
 <!--
 **chengbotao/chengbotao** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
