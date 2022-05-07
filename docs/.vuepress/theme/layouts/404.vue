@@ -3,7 +3,7 @@
  * @Author: Chengbotao
  * @Date: 2022-05-06 01:53:06
  * @LastEditors: Chengbotao
- * @LastEditTime: 2022-05-06 22:07:33
+ * @LastEditTime: 2022-05-07 01:10:48
  * @FilePath: \vuepress-docs\docs\.vuepress\theme\layouts\404.vue
 -->
 <template>
@@ -55,6 +55,7 @@ const getMsg = () => {
   }
 
   .btn {
+    display: inline-block;
     position: relative;
     margin: 50px auto;
     background-color: pink;
