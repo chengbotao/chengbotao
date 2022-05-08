@@ -3,7 +3,7 @@
  * @Author: Chengbotao
  * @Date: 2022-05-06 00:54:25
  * @LastEditors: Chengbotao
- * @LastEditTime: 2022-05-07 00:49:58
+ * @LastEditTime: 2022-05-08 20:09:35
  * @FilePath: \vuepress-docs\docs\.vuepress\config\theme.conf.ts
  */
 import {
@@ -28,6 +28,8 @@ const locales: LocaleConfig<DefaultThemeLocaleData> = {
       "这是一个Four-Oh-Four.",
       "看来我们的链接坏掉了~",
     ],
+    navbar: ThemeNavbar.default,
+    sidebar: ThemeSidebar.default,
   },
   "/en/": {
     selectLanguageName: "English",
@@ -45,7 +47,5 @@ const defaultThemeConfig: DefaultThemeOptions = {
 
 export const ThemeConfig: DefaultThemeOptions = {
   locales,
-  ...defaultThemeConfig,
-  navbar: ThemeNavbar.default,
-  sidebar: ThemeSidebar.default,
+  ...defaultThemeConfig
 };
