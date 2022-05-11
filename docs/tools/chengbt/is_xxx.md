@@ -6,7 +6,7 @@ const toString = Object.prototype.toString;
 
 :::
 
-1.  **isString: 是否为字符串**
+> **isString: 是否为字符串**
 
 <CodeGroup>
   <CodeGroupItem title="TS" active>
@@ -24,6 +24,30 @@ export function isString(val: any): val is String {
 ```js
 export function isString(val) {
     return toString.call(val) === '[object String]';
+}
+```
+
+  </CodeGroupItem>
+</CodeGroup>
+
+> **isArray: 是否为数组**
+
+<CodeGroup>
+  <CodeGroupItem title="TS" active>
+
+```ts
+export function isArray(val: any): val is Array {
+  return toString.call(val) === '[object Array]';
+}
+```
+
+  </CodeGroupItem>
+
+  <CodeGroupItem title="JS">
+
+```js
+export function isArray(val) {
+  return toString.call(val) === '[object Array]';
 }
 ```
 
