@@ -53,3 +53,27 @@ export function isArray(val) {
 
   </CodeGroupItem>
 </CodeGroup>
+
+> **isPlainObject: 是否为简单对象**
+
+<CodeGroup>
+  <CodeGroupItem title="TS" active>
+
+```ts
+export function isPlainObject(val: any): val is Object {
+  return toString.call(val) === '[object Object]';
+}
+```
+
+  </CodeGroupItem>
+
+  <CodeGroupItem title="JS">
+
+```js
+export function isPlainObject(val) {
+  return toString.call(val) === '[object Object]';
+}
+```
+
+  </CodeGroupItem>
+</CodeGroup>
