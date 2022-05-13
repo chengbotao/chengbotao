@@ -77,3 +77,27 @@ export function isPlainObject(val) {
 
   </CodeGroupItem>
 </CodeGroup>
+
+> **isFunction: 是否为Function**
+
+<CodeGroup>
+  <CodeGroupItem title="TS" active>
+
+```ts
+export function isFunction(val: any): val is Function {
+  return typeof val === 'function';
+}
+```
+
+  </CodeGroupItem>
+
+  <CodeGroupItem title="JS">
+
+```js
+export function isFunction(val) {
+  return typeof val === 'function';
+}
+```
+
+  </CodeGroupItem>
+</CodeGroup>
