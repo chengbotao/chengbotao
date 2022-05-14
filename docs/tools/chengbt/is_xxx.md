@@ -101,3 +101,35 @@ export function isFunction(val) {
 
   </CodeGroupItem>
 </CodeGroup>
+
+> **isEmptyObject: 是否为空对象**
+
+<CodeGroup>
+  <CodeGroupItem title="TS" active>
+
+```ts
+export function isEmptyObject(val: any): boolean {
+  // 对象为空
+  for (const key in val) {
+    return !!key && false;
+  }
+  return true;
+}
+```
+
+  </CodeGroupItem>
+
+  <CodeGroupItem title="JS">
+
+```js
+export function isEmptyObject(val) {
+  // 对象为空
+  for (const key in val) {
+    return !!key && false;
+  }
+  return true;
+}
+```
+
+  </CodeGroupItem>
+</CodeGroup>
