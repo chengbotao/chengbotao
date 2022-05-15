@@ -133,3 +133,27 @@ export function isEmptyObject(val) {
 
   </CodeGroupItem>
 </CodeGroup>
+
+> **isDate: 是否为 Date**
+
+<CodeGroup>
+  <CodeGroupItem title="TS" active>
+
+```ts
+export function isDate(val: any): val is Date {
+  return toString.call(val) === '[object Date]'
+}
+```
+
+  </CodeGroupItem>
+
+  <CodeGroupItem title="JS">
+
+```js
+export function isDate(val) {
+  return toString.call(val) === '[object Date]'
+}
+```
+
+  </CodeGroupItem>
+</CodeGroup>
