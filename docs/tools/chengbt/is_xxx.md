@@ -157,3 +157,27 @@ export function isDate(val) {
 
   </CodeGroupItem>
 </CodeGroup>
+
+> **isFormData: 是否为 FormData**
+
+<CodeGroup>
+  <CodeGroupItem title="TS" active>
+
+```ts
+export function isFormData(val: any): val is FormData {
+  return typeof val !== 'undefined' && val instanceof FormData
+}
+```
+
+  </CodeGroupItem>
+
+  <CodeGroupItem title="JS">
+
+```js
+export function isFormData(val) {
+  return typeof val !== 'undefined' && val instanceof FormData
+}
+```
+
+  </CodeGroupItem>
+</CodeGroup>
