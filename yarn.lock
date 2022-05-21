@@ -1863,6 +1863,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"markdown-it-latex2img@npm:0.0.6":
+  version: 0.0.6
+  resolution: "markdown-it-latex2img@npm:0.0.6"
+  checksum: 7a04205be08cd6f90e5677900c8e37caf9a92b191d8b0ce8dbe219c1dcb3e557761457ff1ac9098999cd5e3c4fbe22326f3a77bbf92f96ec35389d6cbffb385e
+  languageName: node
+  linkType: hard
+
 "markdown-it@npm:^13.0.0":
   version: 13.0.1
   resolution: "markdown-it@npm:13.0.1"
@@ -2734,6 +2741,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "vuepress-docs@workspace:."
   dependencies:
+    markdown-it-latex2img: 0.0.6
     vuepress: next
   languageName: unknown
   linkType: soft

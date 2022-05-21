@@ -3,7 +3,7 @@
  * @Author: Chengbotao
  * @Date: 2022-05-06 01:24:29
  * @LastEditors: Chengbotao
- * @LastEditTime: 2022-05-10 17:57:46
+ * @LastEditTime: 2022-05-21 20:12:05
  * @FilePath: \vuepress-docs\docs\.vuepress\config\theme.navbar.ts
  */
 
@@ -32,8 +32,8 @@ export const ThemeNavbar: ThemeNavbarConfig = {
       text: "内在善",
       children: [
         {
-          text: "Vue",
-          link: "//",
+          text: "Python",
+          link: "/python/learn",
         },
       ],
     },
