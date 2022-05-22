@@ -3,7 +3,7 @@
  * @Author: Chengbotao
  * @Date: 2022-05-06 01:24:29
  * @LastEditors: Chengbotao
- * @LastEditTime: 2022-05-21 20:12:05
+ * @LastEditTime: 2022-05-22 18:36:56
  * @FilePath: \vuepress-docs\docs\.vuepress\config\theme.navbar.ts
  */
 
@@ -33,7 +33,7 @@ export const ThemeNavbar: ThemeNavbarConfig = {
       children: [
         {
           text: "Python",
-          link: "/python/learn",
+          link: "/python/",
         },
       ],
     },
