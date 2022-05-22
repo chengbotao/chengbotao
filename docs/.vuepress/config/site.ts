@@ -3,7 +3,7 @@
  * @Author: Chengbotao
  * @Date: 2022-05-05 23:31:13
  * @LastEditors: Chengbotao
- * @LastEditTime: 2022-05-08 20:10:45
+ * @LastEditTime: 2022-05-22 10:41:12
  * @FilePath: \vuepress-docs\docs\.vuepress\config\site.ts
  */
 import { SiteLocaleConfig, UserConfig } from "vuepress";
@@ -27,6 +27,6 @@ const locales: SiteLocaleConfig = {
 export const SiteConfig: UserConfig = {
   locales,
   // 站点顶层配置
-  base: "/",
+  base: "/chengbotao/",
   head: [["link", { rel: "icon", href: "/chengbotao.jpg" }]],
 };
