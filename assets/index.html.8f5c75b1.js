@@ -1,1 +1,0 @@
-import{_ as e,o as t,c as o,a,b as c}from"./app.78e28c6f.js";const n={},s={id:"chengbotao",tabindex:"-1"},_=a("a",{class:"header-anchor",href:"#chengbotao","aria-hidden":"true"},"#",-1),r=c(" Chengbotao"),d=[_,r];function h(i,f){return t(),o("h1",s,d)}var x=e(n,[["render",h],["__file","index.html.vue"]]);export{x as default};
