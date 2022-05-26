@@ -3,7 +3,7 @@
  * @Author: Chengbotao
  * @Date: 2022-05-06 01:24:29
  * @LastEditors: Chengbotao
- * @LastEditTime: 2022-05-22 18:36:56
+ * @LastEditTime: 2022-05-26 19:20:06
  * @FilePath: \vuepress-docs\docs\.vuepress\config\theme.navbar.ts
  */
 
@@ -19,8 +19,8 @@ export const ThemeNavbar: ThemeNavbarConfig = {
       text: "外表美",
       children: [
         {
-          text: "Vue",
-          link: "//",
+          text: "TypeScript",
+          link: "/typeScript/ts",
         },
         {
           text: "CSS",
