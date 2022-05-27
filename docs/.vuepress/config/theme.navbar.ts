@@ -3,7 +3,7 @@
  * @Author: Chengbotao
  * @Date: 2022-05-06 01:24:29
  * @LastEditors: Chengbotao
- * @LastEditTime: 2022-05-26 19:20:06
+ * @LastEditTime: 2022-05-27 17:33:43
  * @FilePath: \vuepress-docs\docs\.vuepress\config\theme.navbar.ts
  */
 
@@ -47,6 +47,10 @@ export const ThemeNavbar: ThemeNavbarConfig = {
         {
           text: "chengbt-工具函数",
           link: "/tools/chengbt/is_xxx",
+        },
+        {
+          text: "Linux",
+          link: "/tools/linux/command",
         },
       ],
     },
