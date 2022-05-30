@@ -2,8 +2,8 @@
  * @Description: navbar
  * @Author: Chengbotao
  * @Date: 2022-05-06 01:24:29
- * @LastEditors: Chengbotao
- * @LastEditTime: 2022-05-27 17:33:43
+ * @LastEditors: Please set LastEditors
+ * @LastEditTime: 2022-05-30 18:41:57
  * @FilePath: \vuepress-docs\docs\.vuepress\config\theme.navbar.ts
  */
 
@@ -51,6 +51,10 @@ export const ThemeNavbar: ThemeNavbarConfig = {
         {
           text: "Linux",
           link: "/tools/linux/command",
+        },
+        {
+          text: "Webpack",
+          link: "/tools/webpack/learn",
         },
       ],
     },
