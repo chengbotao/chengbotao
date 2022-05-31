@@ -2,9 +2,9 @@
  * @Description: navbar
  * @Author: Chengbotao
  * @Date: 2022-05-06 01:24:29
- * @LastEditors: Please set LastEditors
- * @LastEditTime: 2022-05-30 18:41:57
- * @FilePath: \vuepress-docs\docs\.vuepress\config\theme.navbar.ts
+ * @LastEditors: Chengbotao
+ * @LastEditTime: 2022-05-31 19:44:09
+ * @FilePath: \chengbotao\docs\.vuepress\config\theme.navbar.ts
  */
 
 import { NavbarConfig } from "vuepress";
@@ -47,6 +47,10 @@ export const ThemeNavbar: ThemeNavbarConfig = {
         {
           text: "chengbt-工具函数",
           link: "/tools/chengbt/is_xxx",
+        },
+        {
+          text: "chengbt-计算机概述",
+          link: "/tools/chengbt/computer",
         },
         {
           text: "Linux",
