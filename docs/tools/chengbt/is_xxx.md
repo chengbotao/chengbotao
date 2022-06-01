@@ -111,7 +111,7 @@ export function isFunction(val) {
 export function isEmptyObject(val: any): boolean {
   // 对象为空
   for (const key in val) {
-    return !!key && false;
+    return false;
   }
   return true;
 }

@@ -90,11 +90,8 @@ console.log(cloneObj.name); // botao
 ```ts
 // 深克隆
 function deepClone(target: any, map = new WeakMap()): any {
-  // 如果不是对象和函数就直接返回
-  if (
-    target === null ||
-    (typeof target !== "object" && typeof target !== "function")
-  ) {
+  // 如果不是对象就直接返回
+  if (target === null || typeof target !== "object") {
     return target;
   }
 
