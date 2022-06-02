@@ -3,7 +3,7 @@
  * @Author: Chengbotao
  * @Date: 2022-05-06 01:24:29
  * @LastEditors: Chengbotao
- * @LastEditTime: 2022-06-01 20:04:38
+ * @LastEditTime: 2022-06-02 19:32:41
  * @FilePath: \chengbotao\docs\.vuepress\config\theme.navbar.ts
  */
 
@@ -25,6 +25,10 @@ export const ThemeNavbar: ThemeNavbarConfig = {
         {
           text: "CSS",
           link: "/css/reset",
+        },
+        {
+          text: "CSS",
+          link: "/css/tips",
         },
       ],
     },
