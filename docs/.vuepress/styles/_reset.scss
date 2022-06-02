@@ -84,9 +84,20 @@ video {
   margin: 0;
   padding: 0;
   border: 0;
-  box-sizing: border-box;
   outline: none;
 }
+
+/** box-sizing 设置 border-box */
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+/** box-sizing 设置 border-box */
 
 /* HTML5 display-role reset for older browsers */
 article,
@@ -131,7 +142,7 @@ blockquote:before,
 blockquote:after,
 q:before,
 q:after {
-  content: '';
+  content: "";
   content: none;
 }
 
@@ -150,15 +161,10 @@ table tr:nth-child(2n) {
   background: #666666;
 } */
 
-input,
-textarea {
-  box-sizing: border-box;
-}
-
 /* // code font family */
 code,
 code * {
-  font-family: 'Consolas', 'Courier New', monospace;
+  font-family: "Consolas", "Courier New", monospace;
 }
 
 /* // firefox button vertical align not center bug fixed */
@@ -170,7 +176,7 @@ button::-moz-focus-inner {
 input[type="reset"]::-moz-focus-inner,
 input[type="button"]::-moz-focus-inner,
 input[type="submit"]::-moz-focus-inner,
-input[type="file"]>input[type="button"]::-moz-focus-inner {
+input[type="file"] > input[type="button"]::-moz-focus-inner {
   padding: 0;
   border: none;
 }
