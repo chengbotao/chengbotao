@@ -71,9 +71,9 @@ p {
 
 > **效果 demo**
 >
-> <p style="border: 1px solid red; width:50px; text-align: justify;text-align-last: justify;">名字</p>
-> <p style="border: 1px solid red; width:50px; text-align: justify;text-align-last: justify;">程波涛程波涛</p>
-> <p style="border: 1px solid red; width:50px; text-align: justify;text-align-last: justify;">你来自哪里</p>
+> <p style="border: 1px solid red; width:100px; text-align: justify;text-align-last: justify;">名字</p>
+> <p style="border: 1px solid red; width:100px; text-align: justify;text-align-last: justify;">程波涛程波涛</p>
+> <p style="border: 1px solid red; width:100px; text-align: justify;text-align-last: justify;">你来自哪里</p>
 
 ### 分割列表
 
@@ -83,7 +83,7 @@ ul > li:not(:last-child)::after {
 }
 ```
 
-<style>
+<style scoped>
     ul li {
         float: left;
         list-style: none;
