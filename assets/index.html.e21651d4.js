@@ -1,1 +1,0 @@
-import{_ as t,o,c,a as e}from"./app.80aa3d2d.js";const n={},_=e("blockquote",null,[e("p",null,"\u591A\u8BED\u8A00\u529F\u80FD\u5C1D\u8BD5")],-1),l=[_];function s(a,r){return o(),c("div",null,l)}var i=t(n,[["render",s],["__file","index.html.vue"]]);export{i as default};
