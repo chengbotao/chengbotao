@@ -116,3 +116,40 @@ function deepClone(target: any, map = new WeakMap()): any {
   return cloneResult;
 }
 ```
+
+### reduceGetObj
+
+> 使用 `Array` 的 `reduce` 方法,  
+> 根据传入的对象及对象的引用获取引用的值
+
+```ts
+function reduceGetObj(object: object, path: string | string[]): object {
+  let tempPath = isString(path) ? path.split(".") : path;
+  return tempPath.reduce((obj, key) => {
+    return obj && obj[key];
+  }, object);
+}
+reduceGetObj({ a: { b: "3" } }, "a.b"); // 3
+reduceGetObj({ a: { b: "3" } }, ["a", "b"]); // 3
+```
+
+### reduceSetObj
+
+> 使用 `Array` 的 `reduce` 方法,  
+> 根据传入的对象、对象的引用设置值
+
+```ts
+export function reduceSetObj(object: object, path: string, val: any): object {
+  let tempPath = isString(path) ? path.split(".") : path;
+  // , 操作符
+  return (
+    (tempPath.slice(0, -1).reduce((obj, key) => {
+      return (obj[key] = obj[key] || {});
+    }, object)[tempPath.pop()] = val),
+    object
+  );
+}
+
+reduceSetObj({ a: { b: "3" } }, "a.c", 4); // {a:{b:"3",c:4}}
+reduceGetObj({ a: { b: "3" } }, ["a", "b"], 4); // {a:{b:"3",c:4}}
+```
