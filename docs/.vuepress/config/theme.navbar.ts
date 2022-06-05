@@ -2,8 +2,8 @@
  * @Description: navbar
  * @Author: Chengbotao
  * @Date: 2022-05-06 01:24:29
- * @LastEditors: Chengbotao
- * @LastEditTime: 2022-06-02 19:32:41
+ * @LastEditors: Please set LastEditors
+ * @LastEditTime: 2022-06-05 19:24:14
  * @FilePath: \chengbotao\docs\.vuepress\config\theme.navbar.ts
  */
 
@@ -67,6 +67,10 @@ export const ThemeNavbar: ThemeNavbarConfig = {
         {
           text: "Webpack",
           link: "/tools/webpack/learn",
+        },
+        {
+          text: "实战项目",
+          link: "/hands-on/billows",
         },
       ],
     },
