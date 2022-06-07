@@ -204,6 +204,6 @@ npm install rimraf -D
 }
 ```
 
-[rollup.js 中文官网](https://rollupjs.org/guide/zh/)
-[TypeScript 中文官网](https://www.tslang.cn/docs/home.html)
+[rollup.js 中文官网](https://rollupjs.org/guide/zh/)  
+[TypeScript 中文官网](https://www.tslang.cn/docs/home.html)  
 [rollup.js 插件列表](https://github.com/rollup/plugins)

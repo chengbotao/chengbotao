@@ -101,7 +101,7 @@ npm install eslint-plugin-prettier prettier -D
   "singleQuote": true
 }
 
-# 创建 ..prettierignore 排除不需要格式化目录及文件
+# 创建 .prettierignore 排除不需要格式化目录及文件
 dist
 node_modules
 ```
@@ -121,5 +121,5 @@ node_modules
 
 [Eslint 官网](http://eslint.cn/)  
 [Prettier 官网](https://www.prettier.cn/)  
-[eslint-config-prettier](https://github.com/prettier/eslint-config-prettier)
+[eslint-config-prettier](https://github.com/prettier/eslint-config-prettier)  
 [eslint-plugin-prettier](https://github.com/prettier/eslint-plugin-prettier)
