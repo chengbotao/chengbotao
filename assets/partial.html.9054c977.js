@@ -1,1 +1,0 @@
-const t={key:"v-4ab08e7c",path:"/billows/partial.html",title:"",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[{level:2,title:"(\u504F\u51FD\u6570)Pratial",slug:"\u504F\u51FD\u6570-pratial",children:[]}],git:{updatedTime:165477556e4,contributors:[{name:"chengbotao",email:"chengbotao5221@163.com",commits:1}]},filePathRelative:"billows/partial.md"};export{t as data};
