@@ -28,7 +28,7 @@ setValueByReference(obj, "a.b.c", "chengbotao");
 // {
 //   a: {
 //     b: {
-//       c: "chengbotao";
+//       c: "chengbotao"
 //     }
 //   }
 // }
