@@ -3,7 +3,7 @@
  * @Author: Chengbotao
  * @Date: 2022-05-06 01:24:29
  * @LastEditors: Please set LastEditors
- * @LastEditTime: 2022-06-09 19:52:17
+ * @LastEditTime: 2022-06-20 12:59:22
  * @FilePath: \chengbotao\docs\.vuepress\config\theme.navbar.ts
  */
 
@@ -19,16 +19,8 @@ export const ThemeNavbar: ThemeNavbarConfig = {
       text: "外表美",
       children: [
         {
-          text: "TypeScript",
-          link: "/typeScript/ts",
-        },
-        {
           text: "CSS",
-          link: "/css/reset",
-        },
-        {
-          text: "CSS",
-          link: "/css/tips",
+          link: "/css/",
         },
       ],
     },
@@ -45,36 +37,8 @@ export const ThemeNavbar: ThemeNavbarConfig = {
       text: "三省吾身",
       children: [
         {
-          text: "单元测试",
-          link: "/tools/test",
-        },
-        {
-          text: "chengbt-工具函数",
-          link: "/tools/chengbt/is_xxx",
-        },
-        {
-          text: "chengbt-工具函数",
-          link: "/tools/chengbt/utils",
-        },
-        {
-          text: "chengbt-计算机概述",
-          link: "/tools/chengbt/computer",
-        },
-        {
-          text: "Linux",
-          link: "/tools/linux/command",
-        },
-        {
-          text: "Webpack",
-          link: "/tools/webpack/learn",
-        },
-        {
-          text: "实战项目",
-          link: "/hands-on/billows",
-        },
-        {
-          text: "实战项目",
-          link: "/billows/partial",
+          text: "Billows 工具函数库",
+          link: "/billows/",
         },
       ],
     },
