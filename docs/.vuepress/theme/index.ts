@@ -2,8 +2,8 @@
  * @Description: 继承默认主题
  * @Author: Chengbotao
  * @Date: 2022-05-06 01:52:14
- * @LastEditors: Chengbotao
- * @LastEditTime: 2022-05-06 01:53:27
+ * @LastEditors: Please set LastEditors
+ * @LastEditTime: 2022-11-21 00:23:47
  * @FilePath: \vuepress-docs\docs\.vuepress\theme\index.ts
  */
 import type { Theme } from "@vuepress/core";
@@ -16,7 +16,10 @@ export const localTheme = (options: DefaultThemeOptions): Theme => {
     name: "vuepress-theme-local",
     extends: defaultTheme(options),
     layouts: {
-      404: path.resolve(__dirname, "layouts/404.vue"),
+      404: path.resolve(__dirname, "layouts/404.vue")
     },
+    alias: {
+      "@theme/HomeFeatures.vue": path.resolve(__dirname, "components/HomeFeatures.vue")
+    }
   };
 };

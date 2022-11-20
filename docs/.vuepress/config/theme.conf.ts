@@ -3,7 +3,7 @@
  * @Author: Chengbotao
  * @Date: 2022-05-06 00:54:25
  * @LastEditors: Please set LastEditors
- * @LastEditTime: 2022-06-20 13:34:16
+ * @LastEditTime: 2022-11-21 00:58:39
  * @FilePath: \vuepress-docs\docs\.vuepress\config\theme.conf.ts
  */
 import {
@@ -15,37 +15,49 @@ import {
 import { ThemeNavbar } from "./theme.navbar";
 import { ThemeSidebar } from "./theme.sidebar";
 
-const locales: LocaleConfig<DefaultThemeLocaleData> = {
-  "/": {
-    selectLanguageText: "选择语言",
-    selectLanguageName: "简体中文",
-    editLinkText: "编辑此页",
-    lastUpdatedText: "更新于",
-    contributorsText: "贡献者",
-    notFound: [
-      "这里什么都没有。",
-      "我是谁?我在哪?",
-      "这是一个Four-Oh-Four.",
-      "看来我们的链接坏掉了~",
-    ],
-    navbar: ThemeNavbar.default,
-    sidebar: ThemeSidebar.default,
-  },
-  "/en/": {
-    selectLanguageName: "English",
-    notFound: ["Not Found"],
-  },
-};
+// const locales: LocaleConfig<DefaultThemeLocaleData> = {
+//   "/": {
+//     selectLanguageText: "选择语言",
+//     selectLanguageName: "简体中文",
+//     editLinkText: "编辑此页",
+//     lastUpdatedText: "更新于",
+//     contributorsText: "贡献者",
+//     notFound: [
+//       "这里什么都没有。",
+//       "我是谁?我在哪?",
+//       "这是一个Four-Oh-Four.",
+//       "看来我们的链接坏掉了~",
+//     ],
+//     navbar: ThemeNavbar.default,
+//     sidebar: ThemeSidebar.default,
+//   },
+//   "/en/": {
+//     selectLanguageName: "English",
+//     notFound: ["Not Found"],
+//   },
+// };
 
 const defaultThemeConfig: DefaultThemeOptions = {
   home: "/",
   logo: "/chengbotao.jpg",
-  logoDark: "/chengbotao.jpg",
-  repo: "chengbotao/chengbotao",
-  repoLabel: "GitHub"
+  // logoDark: "/chengbotao.jpg",
+  // repo: "chengbotao/chengbotao",
+  // repoLabel: "GitHub",
+  editLinkText: "编辑此页",
+  lastUpdatedText: "更新于",
+  contributorsText: "贡献者",
+  notFound: [
+    "这里什么都没有。",
+    "我是谁?我在哪?",
+    "这是一个Four-Oh-Four.",
+    "看来我们的链接坏掉了~",
+  ],
+  navbar: ThemeNavbar.default,
+  sidebar: ThemeSidebar.default,
+  colorModeSwitch: false
 };
 
 export const ThemeConfig: DefaultThemeOptions = {
-  locales,
+  // locales,
   ...defaultThemeConfig,
 };
