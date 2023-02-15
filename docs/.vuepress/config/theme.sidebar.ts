@@ -3,7 +3,7 @@
  * @Author: Chengbotao
  * @Date: 2022-05-06 01:24:15
  * @LastEditors: Please set LastEditors
- * @LastEditTime: 2022-06-20 13:33:38
+ * @LastEditTime: 2023-02-15 11:19:13
  * @FilePath: \vuepress-docs\docs\.vuepress\config\theme.sidebar.ts
  */
 
@@ -57,5 +57,15 @@ export const ThemeSidebar: ThemeSidebarConfig = {
         link: "typeOf",
       },
     ],
+    "/css/": [
+      {
+        text: "rest.css",
+        link: "reset",
+      },
+      {
+        text: "第一弹👍",
+        link: "tips",
+      },
+    ]
   },
 };

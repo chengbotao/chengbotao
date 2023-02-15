@@ -3,7 +3,7 @@
  * @Author: Chengbotao
  * @Date: 2022-05-06 01:24:29
  * @LastEditors: Please set LastEditors
- * @LastEditTime: 2022-06-20 12:59:22
+ * @LastEditTime: 2023-02-15 11:19:44
  * @FilePath: \chengbotao\docs\.vuepress\config\theme.navbar.ts
  */
 
@@ -20,7 +20,7 @@ export const ThemeNavbar: ThemeNavbarConfig = {
       children: [
         {
           text: "CSS",
-          link: "/css/",
+          link: "/css/reset",
         },
       ],
     },
@@ -37,7 +37,7 @@ export const ThemeNavbar: ThemeNavbarConfig = {
       text: "三省吾身",
       children: [
         {
-          text: "Billows 工具函数库",
+          text: "前端工具函数库",
           link: "/billows/",
         },
       ],

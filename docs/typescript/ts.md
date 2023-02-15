@@ -123,7 +123,7 @@ if (typeof notSure === "string) {
 
 ### `void、undefined&null、never`
 
-> `void`: **没有任何类型,但一个函数没有返回值时，返回类型一般就是`void`**
+> `void`: **没有任何类型, 一个函数没有返回值时，返回类型一般就是`void`**
 
 ```ts
 function logUser(): void {
