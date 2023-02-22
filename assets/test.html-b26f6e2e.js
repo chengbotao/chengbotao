@@ -1,0 +1,46 @@
+import{_ as n,p as s,q as a,a1 as t}from"./framework-5866ffd3.js";const p={},o=t(`<p><strong>Q: 什么是单元测试</strong><br><strong>A:</strong> 对软件中的 <strong>最小可测试单元(一个方法/API)</strong> 进行测试</p><hr><p><strong>Q: 为什么要用单元测试</strong></p><div class="custom-container tip"><p class="custom-container-title">原因总结如下:</p><ol><li>分模块开发,方便定位到那个单元出了问题</li><li>有效的提高代码质量</li><li>驱动开发(测试驱动开发)</li></ol></div><p><strong>Q: 单元测试的两种类型</strong></p><div class="custom-container tip"><p class="custom-container-title">TDD&amp;BDD</p><ol><li>TDD <blockquote><p>测试驱动开发,从需求角度看,即我需要结果是什么,如果不是就是错误的<br> 需求分析-&gt;编写单元测试-&gt;编写代码使单元测试通过-&gt;重构</p></blockquote></li><li>BDD <blockquote><p>行为驱动开发,从具体功能角度看,即结果应该是什么,如果不是什么就是错误的<br> 从业务角度定义目标-&gt;找到实现目标的方法-&gt;编写单元测试-&gt;实现行为-&gt;检查产品</p></blockquote></li></ol></div><p><strong>Q: 测试原则</strong></p><div class="custom-container tip"><p class="custom-container-title">原则:</p><ol><li>及时修改和维护</li><li><strong>Code review</strong>(代码审查) <blockquote><p>瞬时的代码审查<br> 同步的代码审查<br> 异步代码审查<br> 偶尔的代码审查</p></blockquote></li><li>只测试单一的点</li><li>尽量贴近真实</li><li>避免测试中逻辑过于复杂</li></ol></div><p><strong>Q: 单元测试的核心内容</strong></p><div class="custom-container tip"><p class="custom-container-title">核心内容</p><ol><li>测试框架 <blockquote><p>Jest --- 基于 jasmine, 对 React 友好<br> Jasmine --- BDD 风格, 自带 assert 和 mock<br> Mocha --- 全面适合 node 和浏览器两个运行端<br> Qunit --- 出自 jQuery, 后来独立出来</p></blockquote></li><li>断言库 <blockquote><p>Chai --- 支持所有风格(全面)<br> Should<br> Expect<br> Assert --- node 环境直接使用</p></blockquote></li><li>Mock 库 <blockquote><p>sinon</p></blockquote></li><li>Test runner <blockquote><p>karma</p></blockquote></li><li>覆盖率工具 <blockquote><p>istanbul</p></blockquote></li></ol></div><p><strong>Q: 单元测试的基本语法/测试用例规则</strong></p><div class="language-javascript line-numbers-mode" data-ext="js"><pre class="language-javascript"><code><span class="token comment">// e.g.</span>
+<span class="token keyword">function</span> <span class="token function">a</span><span class="token punctuation">(</span><span class="token parameter">a<span class="token punctuation">,</span> b</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token keyword">return</span> a <span class="token operator">+</span> b<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment">// descript --- 对于某一个项目的功能整体的测试</span>
+<span class="token function">descript</span><span class="token punctuation">(</span><span class="token string">&quot;对于功能的描述&quot;</span><span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+  <span class="token comment">// 钩子方法</span>
+  <span class="token function">before</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+    <span class="token comment">// 在所有测试用例调用前调用</span>
+  <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token function">after</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+    <span class="token comment">// 在所有测试用例执行结束调用</span>
+  <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token function">beforeEach</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+    <span class="token comment">// 每个测试用例调用前调用</span>
+  <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token function">afterEach</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+    <span class="token comment">// 每个测试用例例执行结束调用</span>
+  <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+  <span class="token comment">// it.only() // 只执行only的测试用例,其他的测试用例不会执行</span>
+
+  <span class="token comment">// 具体的测试用例</span>
+  <span class="token function">it</span><span class="token punctuation">(</span><span class="token string">&quot;对于某个方法的描述&quot;</span><span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+    <span class="token comment">// 调用断言库</span>
+    <span class="token function">expect</span><span class="token punctuation">(</span><span class="token function">a</span><span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">,</span> <span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">.</span>to<span class="token punctuation">.</span><span class="token function">equal</span><span class="token punctuation">(</span><span class="token number">2</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+  <span class="token function">it</span><span class="token punctuation">(</span><span class="token string">&quot;对于接口的测试模板&quot;</span><span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+    <span class="token comment">// 需要在测试用例的代码中引入</span>
+    <span class="token comment">// import Promise from &quot;es6-promise&quot;;</span>
+    <span class="token comment">// Promise.polyfill()</span>
+
+    <span class="token comment">// spy、stub、Mock</span>
+    <span class="token comment">// spy: 不会阻止方法的运行, 获取方法信息的, 比如：方法调用几次: axiosSpy.callCount</span>
+    <span class="token comment">// stub: 会拦截到方法的调用</span>
+    <span class="token comment">// Mock: spy + stub</span>
+    <span class="token keyword">const</span> axiosSpy <span class="token operator">=</span> sinon<span class="token punctuation">.</span><span class="token function">spy</span><span class="token punctuation">(</span><span class="token string">&quot;axios&quot;</span><span class="token punctuation">,</span> <span class="token string">&quot;get&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token comment">// sinon 使用结束之后需要 restore</span>
+    axiosSpy<span class="token punctuation">.</span><span class="token function">restore</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token comment">// const axiosStub = sinon.stub(&quot;axios&quot;, &quot;get&quot;);</span>
+    <span class="token comment">// axiosStub.restore();</span>
+  <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div>`,12),c=[o];function e(i,l){return s(),a("div",null,c)}const r=n(p,[["render",e],["__file","test.html.vue"]]);export{r as default};
