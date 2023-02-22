@@ -3,7 +3,7 @@
  * @Author: Chengbotao
  * @Date: 2022-05-06 00:54:25
  * @LastEditors: Please set LastEditors
- * @LastEditTime: 2022-11-21 00:58:39
+ * @LastEditTime: 2023-02-22 17:27:41
  * @FilePath: \vuepress-docs\docs\.vuepress\config\theme.conf.ts
  */
 import {
@@ -40,10 +40,12 @@ import { ThemeSidebar } from "./theme.sidebar";
 const defaultThemeConfig: DefaultThemeOptions = {
   home: "/",
   logo: "/chengbotao.jpg",
+  colorModeSwitch: false,
   // logoDark: "/chengbotao.jpg",
-  // repo: "chengbotao/chengbotao",
-  // repoLabel: "GitHub",
-  editLinkText: "编辑此页",
+  repo: "https://github.com/chengbotao",
+  repoLabel: "GitHub",
+  editLink: false,
+  // editLinkText: "编辑此页",
   lastUpdatedText: "更新于",
   contributorsText: "贡献者",
   notFound: [
@@ -54,7 +56,6 @@ const defaultThemeConfig: DefaultThemeOptions = {
   ],
   navbar: ThemeNavbar.default,
   sidebar: ThemeSidebar.default,
-  colorModeSwitch: false
 };
 
 export const ThemeConfig: DefaultThemeOptions = {

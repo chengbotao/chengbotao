@@ -6,9 +6,10 @@
   },
   "packageManager": "yarn@3.2.0",
   "devDependencies": {
-    "vuepress": "next"
+    "vuepress": "2.0.0-beta.60"
   },
   "dependencies": {
-    "markdown-it-latex2img": "0.0.6"
+    "markdown-it-latex2img": "0.0.6",
+    "vuepress-vite": "next"
   }
 }
