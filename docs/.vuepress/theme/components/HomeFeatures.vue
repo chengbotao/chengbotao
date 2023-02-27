@@ -12,8 +12,10 @@ interface DefaultThemeHomePageFrontmatterFeatures {
   features?: {
     title: string;
     details: string;
-    icon?: string
-    url?: string
+    icon?: {
+      src: string
+    }
+    link?: string
   }[];
 }
 const frontmatter = usePageFrontmatter<Partial<DefaultThemeHomePageFrontmatter & DefaultThemeHomePageFrontmatterFeatures>>()
@@ -23,17 +25,20 @@ const features = computed(() => {
   }
   return []
 })
-const handleClickFeature = (url: string | undefined) => {
-  url && (window.location.href = url)
-}
 </script>
 
 <template>
   <div v-if="features.length" class="features">
-    <div v-for="feature in features" :key="feature.title" class="feature" @click="handleClickFeature(feature.url)">
-      <div v-if="feature.icon" class="icon">{{ feature.icon }}</div>
-      <h2 class="title">{{ feature.title }}</h2>
-      <p class="details">{{ feature.details }}</p>
+    <div v-for="feature in features" :key="feature.title" class="feature">
+      <img v-if="feature.icon" :src="feature.icon.src" />
+      <a v-if="feature.link" :href="feature.link">
+        <h2 class="title">{{ feature.title }}</h2>
+        <p class="details">{{ feature.details }}</p>
+      </a>
+      <template v-else>
+        <h2 class="title">{{ feature.title }}</h2>
+        <p class="details">{{ feature.details }}</p>
+      </template>
     </div>
   </div>
 </template>

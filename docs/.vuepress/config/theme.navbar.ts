@@ -1,10 +1,6 @@
 /*
- * @Description: navbar
  * @Author: Chengbotao
- * @Date: 2022-05-06 01:24:29
- * @LastEditors: Please set LastEditors
- * @LastEditTime: 2023-02-15 11:19:44
- * @FilePath: \chengbotao\docs\.vuepress\config\theme.navbar.ts
+ * @Date: 2022-06-13 09:20:02
  */
 
 import { NavbarConfig } from "vuepress";
@@ -22,14 +18,22 @@ export const ThemeNavbar: ThemeNavbarConfig = {
           text: "CSS",
           link: "/css/reset",
         },
+        {
+          text: "Vue3xy",
+          link: "https://chengbotao.github.io/vue3xy",
+        },
+        {
+          text: "Reactxy",
+          link: "https://chengbotao.github.io/reactxy",
+        },
       ],
     },
     {
       text: "内在善",
       children: [
         {
-          text: "Python",
-          link: "/python/",
+          text: "前端工具函数库",
+          link: "/billows/",
         },
       ],
     },
@@ -37,7 +41,7 @@ export const ThemeNavbar: ThemeNavbarConfig = {
       text: "三省吾身",
       children: [
         {
-          text: "前端工具函数库",
+          text: "心灵避风港",
           link: "/billows/",
         },
       ],

@@ -39,9 +39,9 @@ import { ThemeSidebar } from "./theme.sidebar";
 
 const defaultThemeConfig: DefaultThemeOptions = {
   home: "/",
-  logo: "/chengbotao.jpg",
+  logo: "/chengbotao.png",
   colorModeSwitch: false,
-  // logoDark: "/chengbotao.jpg",
+  // logoDark: "/chengbotao.png",
   repo: "https://github.com/chengbotao",
   repoLabel: "GitHub",
   editLink: false,
