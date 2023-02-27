@@ -3,7 +3,7 @@
  * @Date: 2022-11-21 00:12:09
 -->
 <script setup lang="ts">
-import { usePageFrontmatter } from '@vuepress/client'
+import { usePageFrontmatter, withBase } from '@vuepress/client'
 import { isArray } from '@vuepress/shared'
 import { computed } from 'vue'
 import type { DefaultThemeHomePageFrontmatter } from '@vuepress/theme-default/lib/shared'
@@ -30,7 +30,7 @@ const features = computed(() => {
 <template>
   <div v-if="features.length" class="features">
     <div v-for="feature in features" :key="feature.title" class="feature">
-      <img v-if="feature.icon" :src="feature.icon.src" />
+      <img v-if="feature.icon" :src="withBase(feature.icon.src)" />
       <a v-if="feature.link" :href="feature.link">
         <h2 class="title">{{ feature.title }}</h2>
         <p class="details">{{ feature.details }}</p>
