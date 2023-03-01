@@ -1,9 +1,10 @@
 ---
-title: JavaScript
+title: CSS
 index: false
 icon: discover
+star: true
 category:
-  - JavaScript
+  - CSS
 ---
 
 ## 目录

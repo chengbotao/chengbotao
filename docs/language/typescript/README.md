@@ -4,6 +4,7 @@ index: false
 icon: discover
 sidebar: false
 sticky: 10
+star: true
 category:
   - TypeScript
 ---

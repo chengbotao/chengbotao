@@ -23,6 +23,7 @@ export default hopeTheme({
 
   blog: {
     description: "🍀拒绝标签,追求自我🆙",
+    roundAvatar: true,
     // intro: "/zh/intro.html",
     medias: {
       GitHub: "https://github.com/chengbotao",

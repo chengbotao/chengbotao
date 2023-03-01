@@ -6,6 +6,7 @@ title: ChengBotao
 heroImage: /chengbotao.png
 heroText: Botaoxy
 tagline: 一切尽意,万事从欢
+bgImage: http://file.mo7.cc/api/public/bz
 heroFullScreen: true
 projects:
   # - icon: project

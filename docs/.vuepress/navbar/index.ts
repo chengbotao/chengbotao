@@ -25,7 +25,7 @@ export const Navbar = navbar([
     children: [
       {
         text: "TypeScript",
-        link: "/typescript",
+        link: "/language/typescript",
       }
     ],
   },
