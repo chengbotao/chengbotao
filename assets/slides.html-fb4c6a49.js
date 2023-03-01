@@ -1,1 +1,0 @@
-import{_ as t,W as n,X as o,$ as s,a0 as a,C as r}from"./framework-d4d2f9be.js";const c={};function l(_,i){const e=r("Presentation");return n(),o("div",null,[s(" markdownlint-disable MD024 MD033 MD051 "),a(e,{id:"presentation-1",code:"eJwBAAD//wAAAAE=",theme:"auto"})])}const m=t(c,[["render",l],["__file","slides.html.vue"]]);export{m as default};
