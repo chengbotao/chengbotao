@@ -10,29 +10,34 @@ export const Sidebar = sidebar({
         {
             text: "HTML",
             prefix: "html/",
+            link: "/language/html/",
             collapsible: true,
             children: []
         },
         {
             text: "CSS",
             prefix: "css/",
+            link: "/language/css/",
             collapsible: true,
             children: []
         },
         {
             text: "JavaScript",
             prefix: "javascript/",
+            link: "/language/javascript/",
             collapsible: true,
             children: []
         },
         {
             text: "TypeScript",
             prefix: "typescript/",
+            link: "/language/typescript/",
             collapsible: true,
             children: [
                 {
                     text: "工具函数",
                     prefix: "utils/",
+                    link: "/language/typescript/utils/",
                     children: [
                         {
                             text: "curry<函数柯里化>",

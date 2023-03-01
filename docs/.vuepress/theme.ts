@@ -48,6 +48,8 @@ export default hopeTheme({
     // editLink: "在 GitHub 上编辑此页",
   },
 
+  lastUpdated: false,
+
   encrypt: {
     config: {
     },
@@ -56,11 +58,14 @@ export default hopeTheme({
   plugins: {
     blog: true,
 
-    comment: false,
-    // comment: {
-    //   // @ts-expect-error: You should generate and use your own comment service
-    //   provider: "Giscus",
-    // },
+    comment: {
+      provider: "Giscus",
+      repo: "chengbotao/chengbotao",
+      repoId: "MDEwOlJlcG9zaXRvcnkzMTA0OTUxOTI=",
+      category: "General",
+      categoryId: "DIC_kwDOEoHH2M4CUkmX"
+    },
+
 
     // all features are enabled for demo, only preserve features you need here
     mdEnhance: {

@@ -5,6 +5,7 @@ icon: discover
 sidebar: false
 sticky: 10
 star: true
+comment: false
 category:
   - TypeScript
 ---
