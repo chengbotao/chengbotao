@@ -22,40 +22,13 @@ export default hopeTheme({
   docsDir: "docs",
 
   blog: {
-    description: "一个前端开发者",
+    description: "🍀拒绝标签,追求自我🆙",
     // intro: "/zh/intro.html",
     medias: {
       GitHub: "https://github.com/chengbotao",
       BiliBili: "https://b23.tv/sGCZXZW",
       Weibo: "https://weibo.com/u/5324411691",
-      // Baidu: "https://example.com",
-      // Bitbucket: "https://example.com",
-      // Dingding: "https://example.com",
-      // Discord: "https://example.com",
-      // Dribbble: "https://example.com",
-      // Email: "https://example.com",
-      // Evernote: "https://example.com",
-      // Facebook: "https://example.com",
-      // Flipboard: "https://example.com",
-      // Gitee: "https://example.com",
-      // Gitlab: "https://example.com",
-      // Gmail: "https://example.com",
-      // Instagram: "https://example.com",
-      // Lark: "https://example.com",
-      // Lines: "https://example.com",
-      // Linkedin: "https://example.com",
-      // Pinterest: "https://example.com",
-      // Pocket: "https://example.com",
-      // QQ: "https://example.com",
-      // Qzone: "https://example.com",
-      // Reddit: "https://example.com",
-      // Rss: "https://example.com",
-      // Steam: "https://example.com",
-      // Twitter: "https://example.com",
-      // Wechat: "https://example.com",
-      // Whatsapp: "https://example.com",
-      // Youtube: "https://example.com",
-      // Zhihu: "https://example.com"
+      Gitee: "https://gitee.com/chengbotao",
     },
   },
 
@@ -65,13 +38,13 @@ export default hopeTheme({
   // sidebar
   sidebar: Sidebar,
 
-  footer: "拒绝标签,追求自我",
+  footer: "🍀拒绝标签,追求自我🆙",
 
   displayFooter: true,
 
   // page meta
   metaLocales: {
-    editLink: "在 GitHub 上编辑此页",
+    // editLink: "在 GitHub 上编辑此页",
   },
 
   encrypt: {

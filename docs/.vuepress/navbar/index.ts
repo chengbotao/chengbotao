@@ -1,3 +1,7 @@
+/*
+ * @Author: Chengbotao
+ * @Date: 2023-03-01 09:07:04
+ */
 import { navbar } from "vuepress-theme-hope";
 
 export const Navbar = navbar([
@@ -18,8 +22,11 @@ export const Navbar = navbar([
   {
     text: "内在善",
     icon: "edit",
-    prefix: "/",
     children: [
+      {
+        text: "TypeScript",
+        link: "/typescript",
+      }
     ],
   },
   {
