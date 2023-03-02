@@ -1,7 +1,7 @@
 ---
 title: setValueByReference<根据对象的引用设置值>
 icon: page
-author: Chengbotao
+author: ChengBotao
 date: 2022-06-15 20:40:27
 category:
   - TypeScript

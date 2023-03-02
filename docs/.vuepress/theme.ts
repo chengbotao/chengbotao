@@ -40,12 +40,14 @@ export default hopeTheme({
   sidebar: Sidebar,
 
   footer: "🍀拒绝标签,追求自我🆙",
+  copyright: "Copyright © 2023 ChengBotao",
 
   displayFooter: true,
 
   // page meta
   metaLocales: {
     // editLink: "在 GitHub 上编辑此页",
+    contributors: "ChengBotao"
   },
 
   lastUpdated: false,

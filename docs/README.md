@@ -39,6 +39,6 @@ projects:
   #   desc: Detailed description of this custom item
   #   link: https://link.to.your.friend
 
-footer: 寻找,自己生活态度
+footer: 🥇寻找,自己生活态度💯
 ---
 

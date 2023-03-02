@@ -1,7 +1,7 @@
 ---
 title: typeOf<数据类型>
 icon: page
-author: Chengbotao
+author: ChengBotao
 date: 2022-06-15 14:26:45
 category:
   - TypeScript

@@ -1,7 +1,7 @@
 ---
 title: curry<函数柯里化>
 icon: page
-author: Chengbotao
+author: ChengBotao
 date: 2022-06-10 19:21:17
 category:
   - TypeScript

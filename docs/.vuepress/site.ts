@@ -16,5 +16,5 @@ export const SiteConfig: UserConfig = {
     ],
     lang: "zh-CN",
     title: "Botaoxy",
-    description: "Chengbotao's WebSite!!!"
+    description: "ChengBotao's WebSite!!!"
 };

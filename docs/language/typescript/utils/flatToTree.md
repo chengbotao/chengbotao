@@ -1,7 +1,7 @@
 ---
 title: flatToTree<扁平化数据结构树形>
 icon: page
-author: Chengbotao
+author: ChengBotao
 date: 2022-06-18 10:11:46
 category:
   - TypeScript

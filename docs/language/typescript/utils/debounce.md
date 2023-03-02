@@ -1,7 +1,7 @@
 ---
 title: debounce<防抖>
 icon: page
-author: Chengbotao
+author: ChengBotao
 date: 2022-06-23 11:16:23
 category:
   - TypeScript

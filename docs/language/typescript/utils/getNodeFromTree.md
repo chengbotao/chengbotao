@@ -1,7 +1,7 @@
 ---
 title: getNodeFromTree<根据标志获取树形中的节点>
 icon: page
-author: Chengbotao
+author: ChengBotao
 date: 2022-06-18 12:56:47
 category:
   - TypeScript

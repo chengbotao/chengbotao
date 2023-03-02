@@ -1,7 +1,7 @@
 ---
 title: treeToFlat<树形数据结构扁平化>
 icon: page
-author: Chengbotao
+author: ChengBotao
 date: 2022-06-18 00:32:26
 category:
   - TypeScript

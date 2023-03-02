@@ -1,7 +1,7 @@
 ---
 title: instanceOf<构造函数>
 icon: page
-author: Chengbotao
+author: ChengBotao
 date: 2022-06-15 20:14:59
 category:
   - TypeScript

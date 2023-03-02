@@ -1,7 +1,7 @@
 ---
 title: partial<偏函数>
 icon: page
-author: Chengbotao
+author: ChengBotao
 date: 2022-06-09 18:43:23
 category:
   - TypeScript

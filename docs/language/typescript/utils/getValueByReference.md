@@ -1,7 +1,7 @@
 ---
 title: getValueByReference<根据对象的引用获取值>
 icon: page
-author: Chengbotao
+author: ChengBotao
 date: 2022-06-18 00:27:39
 category:
   - TypeScript
