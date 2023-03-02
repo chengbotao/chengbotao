@@ -1,0 +1,1 @@
+import{_ as t,W as n,X as c,Y as e}from"./framework-90c572f7.js";const s={},o=e("div",{class:"hint-container info"},[e("p",{class:"hint-container-title"},"相关信息")],-1),_=[o];function a(i,r){return n(),c("div",null,_)}const d=t(s,[["render",a],["__file","0-9.html.vue"]]);export{d as default};
