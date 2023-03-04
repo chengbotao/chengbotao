@@ -1,0 +1,1 @@
+import{_ as c,W as o,X as s,Y as e,Z as t}from"./framework-90c572f7.js";const n={},l=e("p",null,[t("取消设置"),e("code",null,"width"),t(": "),e("code",null,"width:unset;"),t(" 图像不失真设置: "),e("code",null,"object-fit: cover;")],-1),_=[l];function r(a,d){return o(),s("div",null,_)}const u=c(n,[["render",r],["__file","tips.html.vue"]]);export{u as default};
