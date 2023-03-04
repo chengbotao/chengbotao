@@ -121,5 +121,22 @@ export const Sidebar = sidebar({
     // 构建工具
     "/tools/": [],
     // 点滴记录
-    "/note/": [],
+    "/note/": [
+        {
+            text: "copywriter",
+            prefix: "copywriter/",
+            link: "/note/copywriter/",
+            collapsible: true,
+            children: [
+                {
+                    text: "碎碎念 0️⃣",
+                    link: "0"
+                },
+                {
+                    text: "碎碎念 1️⃣",
+                    link: "1"
+                },
+            ]
+        },
+    ],
 });

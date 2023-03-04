@@ -32,6 +32,6 @@ export const Navbar = navbar([
   {
     text: "三省吾身",
     icon: "note",
-    link: "/chengbotao"
+    link: "/note/copywriter"
   },
 ]);
