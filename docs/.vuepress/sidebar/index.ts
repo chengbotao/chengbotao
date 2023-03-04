@@ -87,6 +87,30 @@ export const Sidebar = sidebar({
                             text: "throttle<节流>",
                             link: "throttle"
                         },
+                        {
+                            text: "buildURL<构建URL>",
+                            link: "buildURL"
+                        },
+                        {
+                            text: "parseURL<解析URL>",
+                            link: "parseURL"
+                        },
+                        {
+                            text: "encodeURIC<URI 针对特殊字符编码处理>",
+                            link: "encodeURIC"
+                        },
+                        {
+                            text: "jsonp<Promise版jsonp>",
+                            link: "jsonp"
+                        },
+                        {
+                            text: "isxxx<判断结果>",
+                            link: "isxxx"
+                        },
+                        {
+                            text: "代码集合",
+                            link: "codeCollection"
+                        },
                     ]
                 },
             ]
