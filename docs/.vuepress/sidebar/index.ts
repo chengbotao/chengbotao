@@ -136,6 +136,10 @@ export const Sidebar = sidebar({
                     text: "碎碎念 1️⃣",
                     link: "1"
                 },
+                {
+                    text: "碎碎念 3️⃣",
+                    link: "2"
+                },
             ]
         },
     ],
