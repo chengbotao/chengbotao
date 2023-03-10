@@ -28,3 +28,11 @@ email.replace(/([^@]*)/, (word) => {
 	return word.slice(0, 3) + word.slice(3).replace(/.{1}/g, "*");
 });
 ```
+
+## 驼峰转分割
+
+```ts
+propertyName.replace(/[A-Z]/g, (letter, offset) => {
+	return offset === 0 ? `${letter.toLowerCase()}` : `-${letter.toLowerCase()}`;
+});
+```
