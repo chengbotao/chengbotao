@@ -6,7 +6,7 @@ import { UserConfig } from "vuepress";
 
 export const SiteConfig: UserConfig = {
     // 站点顶层配置
-    base: "/chengbotao/",
+    // base: "/chengbotao/",
     head: [
         ["meta", { property: "og:type", content: "website" }],
         ["meta", { property: "og:title", content: "Botaoxy" }],
