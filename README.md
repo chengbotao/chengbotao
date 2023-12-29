@@ -27,14 +27,13 @@
 ---
 
 **<div align="left">[Chengbotao's WebSite!!!](https://chengbotao.github.io/chengbotao/)</div>**
-**<div align="center">[Vue3xy UI Library!!!](https://chengbotao.github.io/vue3xy/)</div>**
-**<div align="right">[Reactxy UI Library!!!](https://chengbotao.github.io/reactxy/)</div>**
+**<div align="center">[Vue3xy: Vue3组件库!!!](https://chengbotao.github.io/vue3xy/)</div>**
+**<div align="right">[Utilsxy: 前端工具库函数!!!](https://chengbotao.github.io/utilsxy/)</div>**
 
 ---
 
 ![Chengbotao's GitHub stats](https://github-readme-stats.vercel.app/api?username=chengbotao&show_icons=true&theme=radical&locale=cn)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=chengbotao&&locale=cn&theme=radical)
-![](https://github-readme-stats.vercel.app/api/pin/?username=chengbotao&repo=botaoxy)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=chengbotao&&locale=cn&theme=radical&layout=compact)
 
 ## Languages and Tools
 
